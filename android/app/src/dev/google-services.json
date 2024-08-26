@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "610968252349",
+    "project_id": "learning-development-15fee",
+    "storage_bucket": "learning-development-15fee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610968252349:android:347255aa6e8258ce6f2cd4",
+        "android_client_info": {
+          "package_name": "com.personal.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS-MMSiLM0XPWZRQCnC0KLeDoNn-8tXJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
