@@ -1,8 +1,11 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:my_personal_project/global.dart';
+import 'package:my_personal_project/firebase_options/firebase_options_production.dart';
 import 'package:my_personal_project/main.dart';
 
-void main() {
-  Global.baseURL = 'https://learning/prod/';
+void main() async {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
