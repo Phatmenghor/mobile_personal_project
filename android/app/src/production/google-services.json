@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "298022819695",
+    "project_id": "learning-production-a10d2",
+    "storage_bucket": "learning-production-a10d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298022819695:android:07a7e66ec1ca648bc2fa9a",
+        "android_client_info": {
+          "package_name": "com.personal.production"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB49hm8H2cDGXiOQ9FCvs2yc9WmKHwbls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

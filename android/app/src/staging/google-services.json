@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766346609290",
+    "project_id": "learning-staging-3ca9f",
+    "storage_bucket": "learning-staging-3ca9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766346609290:android:b6dd88c02c01ada8356373",
+        "android_client_info": {
+          "package_name": "com.personal.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN8TCcwbAS1DGRdkJSaH_8JFe5reoeUHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

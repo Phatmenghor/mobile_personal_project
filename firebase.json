@@ -1,31 +1,58 @@
 {
-  "flutter": {
-    "platforms": {
-      "android": {
-        "default": {
-          "projectId": "learning-development-edf0d",
-          "appId": "1:323351798507:android:53bced5c22caa6c66294ae",
-          "fileOutput": "android/app/google-services.json"
-        }
-      },
-      "ios": {
-        "default": {
-          "projectId": "learning-development-edf0d",
-          "appId": "1:323351798507:ios:d89baa20a06881326294ae",
-          "uploadDebugSymbols": false,
-          "fileOutput": "ios/Runner/GoogleService-Info.plist"
-        }
-      },
-      "dart": {
-        "lib/firebase_options.dart": {
-          "projectId": "learning-development-edf0d",
-          "configurations": {
-            "android": "1:323351798507:android:53bced5c22caa6c66294ae",
-            "ios": "1:323351798507:ios:d89baa20a06881326294ae",
-            "web": "1:323351798507:web:9487afd881731b396294ae"
-          }
-        }
-      }
+  "projects": {
+    "staging": "learning-staging-3ca9f",
+    "development": "learning-development-edf0d",
+    "production": "learning-production-a10d2"
+  },
+  "android": {
+    "staging": {
+      "projectId": "learning-staging-3ca9f",
+      "appId": "1:766346609290:android:b6dd88c02c01ada8356373",
+      "fileOutput": "android/app/src/staging/google-services.json"
+    },
+    "development": {
+      "projectId": "learning-development-edf0d",
+      "appId": "1:323351798507:android:53bced5c22caa6c66294ae",
+      "fileOutput": "android/app/src/development/google-services.json"
+    },
+    "production": {
+      "projectId": "learning-production-a10d2",
+      "appId": "1:298022819695:android:07a7e66ec1ca648bc2fa9a",
+      "fileOutput": "android/app/src/production/google-services.json"
+    }
+  },
+  "ios": {
+    "staging": {
+      "projectId": "learning-staging-3ca9f",
+      "appId": "1:766346609290:ios:ac4357b4756f9471356373",
+      "fileOutput": "ios/Runner/staging/GoogleService-Info.plist"
+    },
+    "development": {
+      "projectId": "learning-development-edf0d",
+      "appId": "1:323351798507:ios:d89baa20a06881326294ae",
+      "fileOutput": "ios/Runner/development/GoogleService-Info.plist"
+    },
+    "production": {
+      "projectId": "learning-production-a10d2",
+      "appId": "1:298022819695:ios:8a41dd2f9b0dcfa5c2fa9a",
+      "fileOutput": "ios/Runner/production/GoogleService-Info.plist"
+    }
+  },
+  "web": {
+    "staging": {
+      "projectId": "learning-staging-3ca9f",
+      "appId": "1:766346609290:web:6d41214c694c2712356373",
+      "fileOutput": "web/firebase/staging/firebase-config.js"
+    },
+    "development": {
+      "projectId": "learning-development-edf0d",
+      "appId": "1:323351798507:web:9487afd881731b396294ae",
+      "fileOutput": "web/firebase/development/firebase-config.js"
+    },
+    "production": {
+      "projectId": "learning-production-a10d2",
+      "appId": "1:298022819695:web:17d925d994897fedc2fa9a",
+      "fileOutput": "web/firebase/production/firebase-config.js"
     }
   }
 }
