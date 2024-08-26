@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDlRSwZew16VBbAYuSYYNnktT3UfgvYBIQ',
-    appId: '1:610968252349:web:811c9abf360aa47d6f2cd4',
-    messagingSenderId: '610968252349',
-    projectId: 'learning-development-15fee',
-    authDomain: 'learning-development-15fee.firebaseapp.com',
-    storageBucket: 'learning-development-15fee.appspot.com',
-    measurementId: 'G-LH81DDSJ6D',
+    apiKey: 'AIzaSyCULWDeiJjh16dgWvAy2nDOZYa7JschT6w',
+    appId: '1:323351798507:web:9487afd881731b396294ae',
+    messagingSenderId: '323351798507',
+    projectId: 'learning-development-edf0d',
+    authDomain: 'learning-development-edf0d.firebaseapp.com',
+    storageBucket: 'learning-development-edf0d.appspot.com',
+    measurementId: 'G-2253FYCMSS',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBS-MMSiLM0XPWZRQCnC0KLeDoNn-8tXJk',
-    appId: '1:610968252349:android:347255aa6e8258ce6f2cd4',
-    messagingSenderId: '610968252349',
-    projectId: 'learning-development-15fee',
-    storageBucket: 'learning-development-15fee.appspot.com',
+    apiKey: 'AIzaSyDLZwIt6lC7dKXSbC9-SCWyDs5DWoIfw1E',
+    appId: '1:323351798507:android:53bced5c22caa6c66294ae',
+    messagingSenderId: '323351798507',
+    projectId: 'learning-development-edf0d',
+    storageBucket: 'learning-development-edf0d.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDepesWWWkWXL6G_CY82L5lDkkT_pX0CA0',
-    appId: '1:610968252349:ios:cd678dab682bf5906f2cd4',
-    messagingSenderId: '610968252349',
-    projectId: 'learning-development-15fee',
-    storageBucket: 'learning-development-15fee.appspot.com',
-    iosBundleId: 'com.personal.dev',
+    apiKey: 'AIzaSyBQwgZPEKYRzYU5uil3cC1oaHvh_A60Qhg',
+    appId: '1:323351798507:ios:d89baa20a06881326294ae',
+    messagingSenderId: '323351798507',
+    projectId: 'learning-development-edf0d',
+    storageBucket: 'learning-development-edf0d.appspot.com',
+    iosBundleId: 'com.personal.development',
   );
 }
