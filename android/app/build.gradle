@@ -48,13 +48,14 @@ android {
     productFlavors {
         dev {
             dimension "default"
-            applicationIdSuffix ".dev"
-            resValue "string", "app_name", "Learning-dev" 
+            applicationIdSuffix ".development"
+            resValue "string", "app_name", "Learning-development" 
+            // buildConfigField "String", "GOOGLE_SERVICES_JSON", '"google-services-staging.json"'
         }
         stag {
             dimension "default"
-            applicationIdSuffix ".stag"
-            resValue "string", "app_name", "Learning-stag"
+            applicationIdSuffix ".staging"
+            resValue "string", "app_name", "Learning-staging"
         }
         prod {
             dimension "default"
