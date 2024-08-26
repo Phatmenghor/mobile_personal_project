@@ -1,10 +1,17 @@
+import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'api_client.dart';
-import 'network_service.dart';
 
+// Create an instance of GetIt
 final GetIt getIt = GetIt.instance;
 
-void setup() {
-  getIt.registerSingleton<ApiClient>(ApiClient());
-  getIt.registerSingleton<NetworkService>(NetworkService(getIt<ApiClient>()));
+// Set up the service locator
+void setupDependencyInjection() {
+  getIt.registerSingleton<Dio>(Dio());
+
+  // Register ApiClient
+  getIt.registerLazySingleton<ApiClient>(() => ApiClient(getIt<Dio>()));
+
+  // Register other services if needed
+  // getIt.registerSingleton<AnotherService>(AnotherService());
 }
