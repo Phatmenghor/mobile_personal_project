@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAs0U6jsFtNAZ2EnbOY7Whqia4sBD1w8PM',
-    appId: '1:298022819695:web:17d925d994897fedc2fa9a',
-    messagingSenderId: '298022819695',
-    projectId: 'learning-production-a10d2',
-    authDomain: 'learning-production-a10d2.firebaseapp.com',
-    storageBucket: 'learning-production-a10d2.appspot.com',
-    measurementId: 'G-WLY23TXVNT',
+    apiKey: 'AIzaSyC8F3GMltt5YyT0xN3XVOsUVFrmHRFzt8U',
+    appId: '1:795585659872:web:389bd2b788268b30a22185',
+    messagingSenderId: '795585659872',
+    projectId: 'learning-production-c8ef7',
+    authDomain: 'learning-production-c8ef7.firebaseapp.com',
+    storageBucket: 'learning-production-c8ef7.appspot.com',
+    measurementId: 'G-VH1MJLJDGY',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAB49hm8H2cDGXiOQ9FCvs2yc9WmKHwbls',
-    appId: '1:298022819695:android:07a7e66ec1ca648bc2fa9a',
-    messagingSenderId: '298022819695',
-    projectId: 'learning-production-a10d2',
-    storageBucket: 'learning-production-a10d2.appspot.com',
+    apiKey: 'AIzaSyCzWCQ662qOMBYVwAJGAjzbzJlbQWOswVw',
+    appId: '1:795585659872:android:44fce06a12da50a8a22185',
+    messagingSenderId: '795585659872',
+    projectId: 'learning-production-c8ef7',
+    storageBucket: 'learning-production-c8ef7.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBDnc_LVsaFYZbWJ38BSjDaTT96_XzrWS0',
-    appId: '1:298022819695:ios:8a41dd2f9b0dcfa5c2fa9a',
-    messagingSenderId: '298022819695',
-    projectId: 'learning-production-a10d2',
-    storageBucket: 'learning-production-a10d2.appspot.com',
+    apiKey: 'AIzaSyB0nLdnmARVMvW9tkxpZgrxYLuiF4xO9FE',
+    appId: '1:795585659872:ios:3b4edf9ae69da1d4a22185',
+    messagingSenderId: '795585659872',
+    projectId: 'learning-production-c8ef7',
+    storageBucket: 'learning-production-c8ef7.appspot.com',
     iosBundleId: 'com.personal.development',
   );
 }

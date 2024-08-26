@@ -2,7 +2,7 @@
   "projects": {
     "staging": "learning-staging-3ca9f",
     "development": "learning-development-edf0d",
-    "production": "learning-production-a10d2"
+    "production": "learning-production-c8ef7"
   },
   "android": {
     "staging": {
@@ -16,8 +16,8 @@
       "fileOutput": "android/app/src/development/google-services.json"
     },
     "production": {
-      "projectId": "learning-production-a10d2",
-      "appId": "1:298022819695:android:07a7e66ec1ca648bc2fa9a",
+      "projectId": "learning-production-c8ef7",
+      "appId": "1:795585659872:android:44fce06a12da50a8a22185",
       "fileOutput": "android/app/src/production/google-services.json"
     }
   },
@@ -25,17 +25,17 @@
     "staging": {
       "projectId": "learning-staging-3ca9f",
       "appId": "1:766346609290:ios:ac4357b4756f9471356373",
-      "fileOutput": "ios/Runner/staging/GoogleService-Info.plist"
+      "fileOutput": "ios/Runner/stag/GoogleService-Info.plist"
     },
     "development": {
       "projectId": "learning-development-edf0d",
       "appId": "1:323351798507:ios:d89baa20a06881326294ae",
-      "fileOutput": "ios/Runner/development/GoogleService-Info.plist"
+      "fileOutput": "ios/Runner/deve/GoogleService-Info.plist"
     },
     "production": {
-      "projectId": "learning-production-a10d2",
-      "appId": "1:298022819695:ios:8a41dd2f9b0dcfa5c2fa9a",
-      "fileOutput": "ios/Runner/production/GoogleService-Info.plist"
+      "projectId": "learning-production-c8ef7",
+      "appId": "1:795585659872:ios:3b4edf9ae69da1d4a22185",
+      "fileOutput": "ios/Runner/prod/GoogleService-Info.plist"
     }
   },
   "web": {
@@ -50,8 +50,8 @@
       "fileOutput": "web/firebase/development/firebase-config.js"
     },
     "production": {
-      "projectId": "learning-production-a10d2",
-      "appId": "1:298022819695:web:17d925d994897fedc2fa9a",
+      "projectId": "learning-production-c8ef7",
+      "appId": "1:795585659872:web:389bd2b788268b30a22185",
       "fileOutput": "web/firebase/production/firebase-config.js"
     }
   }

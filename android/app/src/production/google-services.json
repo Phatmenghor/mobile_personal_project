@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "298022819695",
-    "project_id": "learning-production-a10d2",
-    "storage_bucket": "learning-production-a10d2.appspot.com"
+    "project_number": "795585659872",
+    "project_id": "learning-production-c8ef7",
+    "storage_bucket": "learning-production-c8ef7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:298022819695:android:07a7e66ec1ca648bc2fa9a",
+        "mobilesdk_app_id": "1:795585659872:android:44fce06a12da50a8a22185",
         "android_client_info": {
-          "package_name": "com.personal.production"
+          "package_name": "com.personal"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAB49hm8H2cDGXiOQ9FCvs2yc9WmKHwbls"
+          "current_key": "AIzaSyCzWCQ662qOMBYVwAJGAjzbzJlbQWOswVw"
         }
       ],
       "services": {
