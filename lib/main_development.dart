@@ -5,9 +5,9 @@ import 'package:my_personal_project/firebase_options/firebase_options_developmen
 import 'package:my_personal_project/main.dart';
 
 void main() async {
-  // await dotenv.load(fileName: "assets/env/.env.development");
-  // await Firebase.initializeApp(
-  //   options: DefaultFirebaseOptions.currentPlatform,
-  // );
+  await dotenv.load(fileName: "assets/env/.env.development");
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
